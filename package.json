@@ -1,0 +1,24 @@
+{
+  "name": "bsausywebsite",
+  "version": "0.0.1",
+  "description": "description",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.15.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrianDeitchman/PersonalWebSite.git"
+  },
+  "author": "Brian Deitchman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrianDeitchman/PersonalWebSite/issues"
+  },
+  "homepage": "https://github.com/BrianDeitchman/PersonalWebSite#readme"
+}
