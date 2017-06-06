@@ -2,12 +2,15 @@
 
 <html lang="en">
 <head>
-  <meta charset="utf-8">
+    <meta charset="utf-8">
 
-  <title>The HTML5 Herald</title>
-  <meta name="Brian" content="The HTML5 Herald">
-  <meta name="Brian Deitchman" content="SitePoint">
-
+    <title>The HTML5 Herald</title>
+    <meta name="Brian" content="The HTML5 Herald">
+    <meta name="Brian Deitchman" content="SitePoint">
+    <style>
+        h1{color:darkcyan;}
+        p{color:purple;}
+    </style>
 
 </head>
 
@@ -15,6 +18,22 @@
     <h1>
         Brian Deitchman
     </h1> 
-    personal website
+    <p>
+        personal website
+    </p>
+    <button id="clickme">
+        Click me
+    </button>
+    <ul id="list">
+    </ul>
+    <script>
+        let button = document.getElementById("clickme");
+        button.addEventListener("click",(e)=>{
+            document.getElementById("list").appendChild(document.createElement("LI").appendChild(document.createTextNode("you clicked me")));
+        });
+    </script>
+    <img src="http://s7d2.scene7.com/is/image/PetSmart/PB0101_HERO-Dog-TreatsRawhide-20160818?$sclp-banner-main_large$" alt="joshy boy">
+
+    </img>
 </body>
 </html>
